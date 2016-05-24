@@ -2,7 +2,8 @@
 <html lang="fr">
 <head>
 	<meta charset="UTF-8">
-	<title>Welcome</title>
+	<title>Page 1!</title>
+	{{>header/materialize}}
 </head>
 <style>
 #container{
@@ -17,12 +18,9 @@ img{
 </style>
 <body>
 	<div id="container">
-		<h1>Bienvenue sur notre site de base</h1>
-		<img src="assets/banner.jpg" alt="homepage">
-		<ul>
-			<li><a href="page1">Page 1</a></li>
-			<li><a href="page2">Page 2</a></li>
-		</ul>
+	{{>menu}}
+	<h2>CECI EST UNE *saperlipopette* PAGE</h2>
+		{{{body}}}
 	</div>
 </body>
 </html>

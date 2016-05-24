@@ -1,0 +1,15 @@
+{
+  "name": "mywebsite",
+  "version": "0.0.1",
+  "description": "Ce site permet de tester des fonctionnalités d'Expressjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ABCD",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0"
+  }
+}
